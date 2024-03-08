@@ -59,18 +59,20 @@ ui <- fluidPage(
                )
              )
     ),
-    tabPanel("Leaderboard", 
+    tabPanel("Stats"),
+    tabPanel("Leaderboard",
              sidebarLayout(
                sidebarPanel(
-                 checkboxInput("include_critics_leaderboard", 
-                               "Include Critics' Data", 
-                               value = TRUE)
+                 # checkboxInput("include_critics_leaderboard",
+                 #               "Include Critics' Data",
+                 #               value = TRUE)
                ),
                mainPanel(
-                 tableOutput("leaderboard_table")
+                 h4("Coming on March 11th, 2024!")
+                 # tableOutput("leaderboard_table")
                )
              )
-    )
+    ),
   )
 )
 

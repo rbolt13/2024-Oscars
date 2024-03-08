@@ -115,6 +115,14 @@ Addison W.,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Lu
 Addison W.,Costume Design,Killers of the Flower Moon - Jacqueline West,Killers of the Flower Moon,Jacqueline West,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#833014ff
 Addison W.,Film Editing,Poor Things - Yorgos Mavropsaridis,Poor Things,Yorgos Mavropsaridis,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#83b2cbff
 Addison W.,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,black
+Amazing Amy,Music (Original Score),Poor Things - Jerskin Fendrix,Poor Things,Jerskin Fendrix,"Barbie, Elemental, The Holdovers",False,#83b2cbff
+Amazing Amy,Costume Design,Poor Things - Holly Waddington,Poor Things,Holly Waddington,"Barbie, Elemental, The Holdovers",False,#83b2cbff
+Amazing Amy,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,"Barbie, Elemental, The Holdovers",False,#3e3222ff
+Amazing Amy,International Feature Film,Io Capitano - Italy,Io Capitano,Italy,"Barbie, Elemental, The Holdovers",False,#ce8e68ff
+The Wrap,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
+The Wrap,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,NA - Critics' Pick,True,#EF4397
+The Wrap,Film Editing,Poor Things - Yorgos Mavropsaridis,Poor Things,Yorgos Mavropsaridis,NA - Critics' Pick,True,#83b2cbff
+The Wrap,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
 Entertainment Weekly,Sound,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
 Entertainment Weekly,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
 Entertainment Weekly,Writing (Adapted Screenplay),Barbie,Barbie,NA,NA - Critics' Pick,True,#EF4397
@@ -190,7 +198,7 @@ Gold Derby,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,The
 Gold Derby,Actress in a Leading Role,Emma Stone - Poor Things,Poor Things,Emma Stone,NA - Critics' Pick,True,#83b2cbff
 Gold Derby,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,NA - Critics' Pick,True,#3e3222ff
 Gold Derby,Best Picture,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
-Roger Ebert,Sound,The Zone Of Interest,The Zone Of Interest,NA,NA - Critics' Pick,True,#31743eff
+Roger Ebert,Sound,The Zone of Interest,The Zone of Interest,NA,NA - Critics' Pick,True,black
 Roger Ebert,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
 Roger Ebert,Writing (Adapted Screenplay),American Fiction,American Fiction,NA,NA - Critics' Pick,True,#607292ff
 Roger Ebert,Writing (Original Screenplay),Anatomy of a Fall,Anatomy of a Fall,NA,NA - Critics' Pick,True,#384377ff
@@ -209,7 +217,7 @@ Roger Ebert,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,Th
 Roger Ebert,Actress in a Leading Role,Emma Stone - Poor Things,Poor Things,Emma Stone,NA - Critics' Pick,True,#83b2cbff
 Roger Ebert,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,NA - Critics' Pick,True,#3e3222ff
 Roger Ebert,Best Picture,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
-Awards Daily,Sound,The Zone Of Interest,The Zone Of Interest,NA,NA - Critics' Pick,True,#31743eff
+Awards Daily,Sound,The Zone of Interest,The Zone of Interest,NA,NA - Critics' Pick,True,black
 Awards Daily,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
 Awards Daily,Writing (Adapted Screenplay),American Fiction,American Fiction,NA,NA - Critics' Pick,True,#607292ff
 Awards Daily,Writing (Original Screenplay),Anatomy of a Fall,Anatomy of a Fall,NA,NA - Critics' Pick,True,#384377ff
@@ -228,7 +236,7 @@ Awards Daily,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,T
 Awards Daily,Actress in a Leading Role,Lilly Gladstone - Killers of the Flower Moon,Killers of the Flower Moon,Lilly Gladstone,NA - Critics' Pick,True,#833014ff
 Awards Daily,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,NA - Critics' Pick,True,#3e3222ff
 Awards Daily,Best Picture,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
-tanner,Sound,The Zone Of Interest,The Zone Of Interest,NA,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#31743eff
+tanner,Sound,The Zone of Interest,The Zone of Interest,NA,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,black
 tanner,Music (Original Song),I'm Just Ken - Barbie,Barbie,I'm Just Ken,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#EF4397
 tanner,Writing (Adapted Screenplay),Poor Things,Poor Things,NA,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#83b2cbff
 tanner,Writing (Original Screenplay),Past Lives,Past Lives,NA,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#656d5cff
@@ -447,7 +455,7 @@ Slant,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,The Hold
 Slant,Actress in a Leading Role,Emma Stone - Poor Things,Poor Things,Emma Stone,NA - Critics' Pick,True,#83b2cbff
 Slant,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,NA - Critics' Pick,True,#3e3222ff
 Slant,Best Picture,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
-Seattle Refined,Sound,The Zone Of Interest,The Zone Of Interest,NA,NA - Critics' Pick,True,#31743eff
+Seattle Refined,Sound,The Zone of Interest,The Zone of Interest,NA,NA - Critics' Pick,True,black
 Seattle Refined,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
 Seattle Refined,Writing (Adapted Screenplay),American Fiction,American Fiction,NA,NA - Critics' Pick,True,#607292ff
 Seattle Refined,Writing (Original Screenplay),Anatomy of a Fall,Anatomy of a Fall,NA,NA - Critics' Pick,True,#384377ff
@@ -583,7 +591,7 @@ HKB,Animated Feature Film,Nimona,Nimona,NA,"Barbie, Nimona",False,#f153f1ff
 HKB,Actor in a Supporting Role,Ryan Gosling - Barbie,Barbie,Ryan Gosling,"Barbie, Nimona",False,#EF4397
 HKB,Actress in a Supporting Role,America Ferrera - Barbie,Barbie,America Ferrera,"Barbie, Nimona",False,#EF4397
 HKB,Best Picture,Barbie,Barbie,NA,"Barbie, Nimona",False,#EF4397
-Kira,Sound,The Zone Of Interest,The Zone Of Interest,NA,"Anatomy of a Fall, Barbie, Killers of the Flower Moon, May December, Nyad, Oppenheimer, Past Lives, Poor Things, Society of the Snow, The Zone of Interest",False,#31743eff
+Kira,Sound,The Zone of Interest,The Zone of Interest,NA,"Anatomy of a Fall, Barbie, Killers of the Flower Moon, May December, Nyad, Oppenheimer, Past Lives, Poor Things, Society of the Snow, The Zone of Interest",False,black
 Kira,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,"Anatomy of a Fall, Barbie, Killers of the Flower Moon, May December, Nyad, Oppenheimer, Past Lives, Poor Things, Society of the Snow, The Zone of Interest",False,#EF4397
 Kira,Writing (Adapted Screenplay),Oppenheimer,Oppenheimer,NA,"Anatomy of a Fall, Barbie, Killers of the Flower Moon, May December, Nyad, Oppenheimer, Past Lives, Poor Things, Society of the Snow, The Zone of Interest",False,#3e3222ff
 Kira,Writing (Original Screenplay),Anatomy of a Fall,Anatomy of a Fall,NA,"Anatomy of a Fall, Barbie, Killers of the Flower Moon, May December, Nyad, Oppenheimer, Past Lives, Poor Things, Society of the Snow, The Zone of Interest",False,#384377ff
@@ -639,6 +647,43 @@ Addison W.,Actress in a Supporting Role,America Ferrera - Barbie,Barbie,America 
 Addison W.,Actress in a Leading Role,Lilly Gladstone - Killers of the Flower Moon,Killers of the Flower Moon,Lilly Gladstone,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#833014ff
 Addison W.,Directing,Martin Scorsese - Killers of the Flower Moon,Killers of the Flower Moon,Martin Scorsese,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#833014ff
 Addison W.,Best Picture,Killers of the Flower Moon,Killers of the Flower Moon,NA,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#833014ff
+Amazing Amy,Sound,Maestro,Maestro,NA,"Barbie, Elemental, The Holdovers",False,#ffee02
+Amazing Amy,Music (Original Song),Wahzhazhe (A Song For My People) - Killers of the Flower Moon,Killers of the Flower Moon,Wahzhazhe (A Song For My People),"Barbie, Elemental, The Holdovers",False,#833014ff
+Amazing Amy,Writing (Adapted Screenplay),Poor Things,Poor Things,NA,"Barbie, Elemental, The Holdovers",False,#83b2cbff
+Amazing Amy,Writing (Original Screenplay),The Holdovers,The Holdovers,NA,"Barbie, Elemental, The Holdovers",False,#c22b07
+Amazing Amy,Makeup and Hairstyling,Poor Things,Poor Things,NA,"Barbie, Elemental, The Holdovers",False,#83b2cbff
+Amazing Amy,Production Design,Barbie,Barbie,NA,"Barbie, Elemental, The Holdovers",False,#EF4397
+Amazing Amy,Cinematography,Maestro,Maestro,NA,"Barbie, Elemental, The Holdovers",False,#ffee02
+Amazing Amy,Animated Short Film,Letter to a Pig,Letter to a Pig,NA,"Barbie, Elemental, The Holdovers",False,#c28a7dff
+Amazing Amy,Animated Feature Film,Elemental,Elemental,NA,"Barbie, Elemental, The Holdovers",False,#7e6caeff
+Amazing Amy,Documentary Short Film,The ABCs of Book Banning,The ABCs of Book Banning,NA,"Barbie, Elemental, The Holdovers",False,#1392a9ff
+Amazing Amy,Documentary Feature Film,20 Days In Mariupol,20 Days In Mariupol,NA,"Barbie, Elemental, The Holdovers",False,#766c6cff
+Amazing Amy,Live Action Short Film,Knight of Fortune,Knight of Fortune,NA,"Barbie, Elemental, The Holdovers",False,#345759ff
+Amazing Amy,Actor in a Supporting Role,Mark Ruffalo - Poor Things,Poor Things,Mark Ruffalo,"Barbie, Elemental, The Holdovers",False,#83b2cbff
+Amazing Amy,Actor in a Leading Role,Paul Giamatti - The Holdovers,The Holdovers,Paul Giamatti,"Barbie, Elemental, The Holdovers",False,#c22b07
+Amazing Amy,Actress in a Supporting Role,America Ferrera - Barbie,Barbie,America Ferrera,"Barbie, Elemental, The Holdovers",False,#EF4397
+Amazing Amy,Actress in a Leading Role,Emma Stone - Poor Things,Poor Things,Emma Stone,"Barbie, Elemental, The Holdovers",False,#83b2cbff
+Amazing Amy,Directing,Yorgos Lanthimos - Poor Things,Poor Things,Yorgos Lanthimos,"Barbie, Elemental, The Holdovers",False,#83b2cbff
+Amazing Amy,Best Picture,Poor Things,Poor Things,NA,"Barbie, Elemental, The Holdovers",False,#83b2cbff
+The Wrap,Sound,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
+The Wrap,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
+The Wrap,Writing (Adapted Screenplay),American Fiction,American Fiction,NA,NA - Critics' Pick,True,#607292ff
+The Wrap,Writing (Original Screenplay),Anatomy of a Fall,Anatomy of a Fall,NA,NA - Critics' Pick,True,#384377ff
+The Wrap,Makeup and Hairstyling,Maestro,Maestro,NA,NA - Critics' Pick,True,#ffee02
+The Wrap,Production Design,Poor Things,Poor Things,NA,NA - Critics' Pick,True,#83b2cbff
+The Wrap,Visual Effects,Godzilla Minus One,Godzilla Minus One,NA,NA - Critics' Pick,True,#a09e9eff
+The Wrap,Cinematography,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
+The Wrap,Animated Short Film,War is Over! Inspired by the Music of John and Yoko,War is Over! Inspired by the Music of John and Yoko,NA,NA - Critics' Pick,True,#844619ff
+The Wrap,Animated Feature Film,Spider-Man: Across the Spider-verse,Spider-Man: Across the Spider-verse,NA,NA - Critics' Pick,True,#444b9fff
+The Wrap,Documentary Short Film,The ABCs of Book Banning,The ABCs of Book Banning,NA,NA - Critics' Pick,True,#1392a9ff
+The Wrap,Documentary Feature Film,20 Days In Mariupol,20 Days In Mariupol,NA,NA - Critics' Pick,True,#766c6cff
+The Wrap,Live Action Short Film,The Wonderful Story of Henry Sugar,The Wonderful Story of Henry Sugar,NA,NA - Critics' Pick,True,#0386a3ff
+The Wrap,Actor in a Supporting Role,Robert Downer Jr. - Oppenheimer,Oppenheimer,Robert Downer Jr.,NA - Critics' Pick,True,#3e3222ff
+The Wrap,Actor in a Leading Role,Cillian Murphy - Oppenheimer,Oppenheimer,Cillian Murphy,NA - Critics' Pick,True,#3e3222ff
+The Wrap,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,The Holdovers,Da'Vine Joy Randolph,NA - Critics' Pick,True,#c22b07
+The Wrap,Actress in a Leading Role,Lilly Gladstone - Killers of the Flower Moon,Killers of the Flower Moon,Lilly Gladstone,NA - Critics' Pick,True,#833014ff
+The Wrap,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,NA - Critics' Pick,True,#3e3222ff
+The Wrap,Best Picture,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
 Taylor,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,Elemental,False,#3c4870ff
 CB,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"Barbie, Elemental",False,#3c4870ff
 All about Bolts,Sound,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"20 Days in Mariupol, Barbie, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Mission Impossible - Dead Reckoning Part One, The Color Purple",False,#3c4870ff
@@ -648,3 +693,4 @@ NH,Sound,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dea
 NH,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Poor Things, The Boy and the Heron, To Kill a Tiger",False,#3c4870ff
 DashboardAliasFinal[FINAL].xlsx,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"Barbie, Killers of the Flower Moon",False,#3c4870ff
 Lil,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"American Fiction, Anatomy of a Fall, Barbie, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Oppenheimer, Poor Things, Spider-Man: Across the Spider-verse, The ABC's of Book Banning, The Boy and the Heron, The Color Purple, The Holdovers",False,#3c4870ff
+Amazing Amy,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"Barbie, Elemental, The Holdovers",False,#3c4870ff
