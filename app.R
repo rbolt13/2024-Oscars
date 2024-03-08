@@ -31,7 +31,8 @@ ui <- fluidPage(
                                value = TRUE),
                  selectInput("alias", 
                              "Select Alias", 
-                             choices = c("All", 
+                             choices = c("",
+                                         "All", 
                                          sort(unique(votes$Alias), 
                                               na.last = TRUE)))
                ),
@@ -59,7 +60,7 @@ ui <- fluidPage(
                )
              )
     ),
-    tabPanel("Stats"),
+    tabPanel("Cluster Analysis"),
     tabPanel("Leaderboard",
              sidebarLayout(
                sidebarPanel(
