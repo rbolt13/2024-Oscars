@@ -1,0 +1,74 @@
+---
+title: "Scarpe oscars.org"
+---
+
+```{r}
+# load data
+library(rvest)
+
+# Define the URL of the Oscars ceremony page
+url <- "https://www.oscars.org/oscars/ceremonies/2024"
+
+# Read the HTML content from the URL
+page <- read_html(url)
+
+# Scrape the categories and nominees
+categories <- page %>%
+  html_nodes(".view-grouping-header") %>%
+  html_text()
+
+nominees <- page %>%
+  html_nodes(".view-grouping-content") %>%
+  html_text()
+```
+
+
+```{r}
+# extract correct categories and nominees
+categories <- utils::head(categories, 23)
+nominees <- utils::head(nominees, 23)
+```
+
+
+```{r}
+oscars_data <- data.frame(categories, nominees)
+head(oscars_data)
+```
+
+```{r}
+cleaned_string <- gsub(
+  "Nominees\n  \n      \n         ", 
+  "", 
+  oscars_data[,2]) 
+
+cleaned_string2 <- gsub(
+    "    \n          ",
+    " - ", 
+  cleaned_string
+  )
+
+cleaned_string3 <- gsub(
+    "\n -     \n  \n   - ",
+    ", ", 
+  cleaned_string2
+  )
+
+cleaned_string4 <- gsub(
+    "\n -     \n",
+    "", 
+  cleaned_string3
+  )
+
+oscars_data[,2] <- cleaned_string4
+
+oscars_data <- separate_rows(
+  oscars_data, 
+  nominees, 
+  sep = ", ")
+
+oscars_data
+# data has errors. 
+# it will take more time than assumed to fix this. 
+# it is not a priority. 
+```
+

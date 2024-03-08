@@ -1,0 +1,9 @@
+.dashboard-header .title {
+  text-align: center;
+}
+
+.dashboard-header .subtitle {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

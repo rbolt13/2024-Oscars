@@ -1,0 +1,49 @@
+---
+title: "Sandbox Plots"
+---
+
+```{r}
+# libraries 
+library(tidyverse)
+```
+
+```{r}
+# data
+votes <- read_csv("../data-clean/votes.csv")
+```
+
+
+# plot1
+
+```{r}
+# for scale whole numbers
+library(scales)
+# plot
+ggplot(votes_colors[18:21,],
+       aes(x = Movie, y = Votes, fill = color)) +
+  geom_bar(stat = "identity") + 
+  labs(x = "Movie",
+       y = "Votes") +
+  scale_fill_identity() +
+  scale_y_continuous(breaks= pretty_breaks()) +
+        theme(
+        axis.text.x = element_text(
+          angle = 35,
+          hjust = 1
+        )
+      ) 
+
+```
+
+
+
+```{r}
+ggplot(votes, aes(x = Movie, y = Votes)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(~ Category, scales = "free") +
+  labs(title = "Votes for Each Movie by Category",
+       x = "Movie",
+       y = "Votes")
+```
+
+

@@ -1,0 +1,310 @@
+---
+title: "cleaning"
+---
+
+# Load libraies
+
+```{r}
+library(readr)
+library(tidyr)
+library(dplyr)
+```
+
+# Load Data
+
+```{r}
+oscars <- readr::read_csv("../data-raw/oscars.csv")
+```
+
+# Clean Data
+
+## extract data
+
+```{r}
+oscar_categories <- oscars[,3:27]
+
+head(oscar_categories)
+```
+
+## rename last two columns
+
+```{r}
+colnames(oscar_categories)[24] <- "Alias"
+colnames(oscar_categories)[25] <- "Seen"
+```
+
+## pivot
+
+```{r}
+oscar_votes <- oscar_categories %>%
+  pivot_longer(cols = -c(Alias, Seen), 
+               names_to = "Category", 
+               values_to = "MovieNominee") %>%
+  select(Alias, Category, MovieNominee, Seen)
+```
+
+## add Critic column
+
+```{r}
+oscar_votes <- oscar_votes %>%
+  mutate(Critic = ifelse(grepl("NA - Critics' Pick", Seen), "True", "False"))
+```
+
+
+# Currnt Code
+
+```{r}
+# 3. Extract exception movies with "-" in the title
+exceptional_movies <- c("Mission: Impossible - Dead Reckoning Part One")
+
+# 4. Subset the data in movieL and movieR such that 
+#     the movie title is either on the left or right 
+#     side of the delimiter
+movieL <- subset(oscar_votes, 
+                 Category == "Costume Design" | 
+                   Category == "Film Editing" |
+                   Category == "International Feature Film" |
+                   Category == "Music (Original Score)")
+movieR <- filter(oscar_votes, 
+                 Category != "Costume Design" & 
+                   Category != "Film Editing" &
+                   Category != "International Feature Film" &
+                   Category != "Music (Original Score)" & 
+                   MovieNominee != exceptional_movies)
+# 5. Separate MovieNominees into three columns for all 
+#     three datasets 
+movieL_sep <- separate(movieL,
+                       MovieNominee,
+                       into = c("Movie", "Nominee"),
+                       sep = " - ",
+                       remove = FALSE,
+                       fill = "right")
+movieR_sep <- separate(movieR,
+                       MovieNominee,
+                       into = c("Nominee", "Movie"),
+                       sep = " - ",
+                       remove = FALSE,
+                       fill = "left")
+exceptional_movies_data <- oscar_votes %>%
+  filter(MovieNominee == exceptional_movies) %>%
+  mutate(MovieNominee = exceptional_movies,
+         Movie = MovieNominee, 
+         Nominee = NA)
+
+# 6. Combine the datasets together again.
+votes_combined <- rbind(movieL_sep, movieR_sep, exceptional_movies_data)
+
+# 7. Add colors. 
+votes_colors <- votes_combined |>
+  mutate(
+    color = case_when(
+      Movie == "Oppenheimer" ~ "#3e3222ff",
+      Movie == "The Holdovers" ~ "#c22b07",
+      Movie == "American Fiction" ~ "#607292ff",
+      Movie == "Maestro" ~ "#ffee02",
+      Movie == "Anatomy of a Fall" ~ "#384377ff",
+      Movie == "Barbie" ~ "#EF4397",
+      Movie == "Killers of the Flower Moon" ~ "#833014ff",
+      Movie == "Past Lives" ~ "#656d5cff",
+      Movie == "Poor Things" ~ "#83b2cbff",
+      Movie == "The Zone of Interest" ~ "#2e6e3dff",
+      Movie == "Napoleon" ~ "#91897cff",
+      Movie == "Io Capitano" ~ "#ce8e68ff",
+      Movie == "Perfect Days" ~ "#a3cba2ff",
+      Movie == "Society of the Snow" ~ "#c8d9cfff",
+      Movie == "Mission: Impossible - Dead Reckoning Part One" ~ "#3c4870ff",
+      TRUE ~ "black"
+    )
+  )
+```
+
+
+```{r}
+library(shiny)
+library(ggplot2)
+
+### Define UI
+# Define UI
+ui <- fluidPage(
+  titlePanel("2024 Oscar Prediction Challenge"),
+  
+  # Add tabs
+  tabsetPanel(
+    tabPanel("Responses",
+             # Sidebar layout
+             sidebarLayout(
+               sidebarPanel(
+                 selectInput("category", "Select Category", choices = unique(oscar_votes$Category)),
+                 checkboxInput("include_critics", "Include Critics' Data", value = TRUE),
+                 selectInput("alias", "Select Alias", 
+                             choices = c("All", sort(unique(oscar_votes$Alias), na.last = TRUE)))
+               ),
+               # Show the plot
+               mainPanel(
+                 plotOutput("barplot"),
+                 # Add table below the plot
+                 tableOutput("vote_table")
+               )
+             )
+    ),
+    tabPanel("Leaderboard", "Under Construction"),
+    tabPanel("About", "Coming Soon")
+  )
+)
+
+# Define server logic
+server <- function(input, output) {
+  
+  # Filtered data based on user inputs
+  filtered_data <- reactive({
+    data <- oscar_votes
+    
+    # Filter by selected category
+    if (input$category != "All") {
+      data <- data[data$Category == input$category, ]
+    }
+    
+    # Filter by whether to include critics' data
+    if (!input$include_critics) {
+      data <- data[data$Critic == "False", ]
+    }
+    
+    # Filter by selected alias
+    if (input$alias != "All") {
+      data <- data[data$Alias == input$alias, ]
+    }
+    
+    # Arrange data by Alias
+    data <- dplyr::arrange(data, Alias)
+    
+    data
+  })
+  
+  # Render the bar plot
+  output$barplot <- renderPlot({
+    ggplot(filtered_data(), aes(x = MovieNominee)) +
+      geom_bar() +
+      labs(title = paste("Votes for Each Movie in", input$category),
+           x = "Movie",
+           y = "Votes") + 
+      scale_fill_identity() +
+      scale_y_continuous(breaks = pretty_breaks()) +
+      theme_light() +
+      theme(
+        axis.text.x = element_text(
+          angle = 35,
+          hjust = 1
+        ))
+  })
+  
+  # Render the table
+  output$vote_table <- renderTable({
+    # Create Movie and Nominee columns
+    vote_data <- filtered_data()
+    vote_data <- vote_data[, c("Alias", "MovieNominee", "Seen")]
+    vote_data
+  })
+}
+
+# Run the Shiny app
+shinyApp(ui = ui, server = server)
+
+
+```
+
+```{r}
+# Define UI
+ui <- fluidPage(
+  titlePanel("2024 Oscar Prediction Challenge"),
+  
+  # Add tabs
+  tabsetPanel(
+    tabPanel("Responses",
+             # Sidebar layout
+             sidebarLayout(
+               sidebarPanel(
+                 selectInput("category", "Select Category", choices = unique(oscar_votes$Category)),
+                 checkboxInput("include_critics", "Include Critics' Data", value = TRUE)
+               ),
+               # Show the plot
+               mainPanel(
+                 plotOutput("barplot"),
+                 # Add table below the plot
+                 tableOutput("vote_table")
+               )
+             )
+    ),
+    tabPanel("Leaderboard", "Under Construction"),
+    tabPanel("About", "Coming Soon")
+  )
+)
+
+# Define server logic
+server <- function(input, output) {
+  
+  # Filtered data based on user inputs
+  filtered_data <- reactive({
+    data <- oscar_votes
+    
+    # Filter by selected category
+    if (input$category != "All") {
+      data <- data[data$Category == input$category, ]
+    }
+    
+    # Filter by whether to include critics' data
+    if (!input$include_critics) {
+      data <- data[, -which(names(data) == "Critic")]
+    }
+    
+    # Arrange the data by alias
+    data <- arrange(data, Alias)
+    
+    data
+  })
+  
+  # Render the bar plot
+  output$barplot <- renderPlot({
+    ggplot(filtered_data(), aes(x = MovieNominee)) +
+      geom_bar() +
+      labs(title = "Number of Votes per Movie Nominee")
+  })
+  
+  # Render the table
+  output$vote_table <- renderTable({
+    # Rename the "MovieNominee" column to "Movie Nominee"
+    names(filtered_data()) <- gsub("MovieNominee", "Movie Nominee", names(filtered_data()))
+    filtered_data()
+  })
+}
+
+# Run the application
+shinyApp(ui = ui, server = server)
+
+```
+
+
+
+
+
+# plot (for testing)
+
+```{r}
+# for scale whole numbers
+library(scales)
+# plot
+ggplot(votes_colors[18:21,],
+       aes(x = Movie, y = Votes, fill = color)) +
+  geom_bar(stat = "identity") + 
+  labs(x = "Movie",
+       y = "Votes") +
+  scale_fill_identity() +
+  scale_y_continuous(breaks= pretty_breaks()) +
+        theme(
+        axis.text.x = element_text(
+          angle = 35,
+          hjust = 1
+        )
+      ) 
+```
+
+
