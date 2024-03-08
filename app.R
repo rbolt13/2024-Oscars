@@ -60,7 +60,6 @@ ui <- fluidPage(
                )
              )
     ),
-    tabPanel("Cluster Analysis"),
     tabPanel("Leaderboard",
              sidebarLayout(
                sidebarPanel(
