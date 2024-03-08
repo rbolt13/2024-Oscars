@@ -18,6 +18,12 @@ The Oscars are just around the corner, but there's still time to join in the fun
 
 Here is a link to the [survey](https://docs.google.com/forms/d/e/1FAIpQLSckTz6OD1ViiO-FJZAseCAuIaQq3VdnhcAUUwjjvxuCTIxjbg/viewform?usp=sf_link).
 
-Here is your trophy!
+<center>
 
 ![](img/trophy.png)
+
+**About Developer**: This app was created by [Randi Bolt](https://www.rbolt.me/).
+
+**Connect**: [Linkedin](https://www.linkedin.com/in/randi-bolt/) | [GitHub](https://github.com/rbolt13/) | [Email](randibolt93@gmail.com)
+
+</center>

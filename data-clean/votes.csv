@@ -123,6 +123,10 @@ The Wrap,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludw
 The Wrap,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,NA - Critics' Pick,True,#EF4397
 The Wrap,Film Editing,Poor Things - Yorgos Mavropsaridis,Poor Things,Yorgos Mavropsaridis,NA - Critics' Pick,True,#83b2cbff
 The Wrap,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
+Nic,Music (Original Score),Killers of the Flower Moon - Robbie Robertson,Killers of the Flower Moon,Robbie Robertson,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#833014ff
+Nic,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#EF4397
+Nic,Film Editing,Poor Things - Yorgos Mavropsaridis,Poor Things,Yorgos Mavropsaridis,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#83b2cbff
+Nic,International Feature Film,The Teacher's Lounge - Germany,The Teacher's Lounge,Germany,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#016484ff
 Entertainment Weekly,Sound,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
 Entertainment Weekly,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
 Entertainment Weekly,Writing (Adapted Screenplay),Barbie,Barbie,NA,NA - Critics' Pick,True,#EF4397
@@ -684,6 +688,24 @@ The Wrap,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,The H
 The Wrap,Actress in a Leading Role,Lilly Gladstone - Killers of the Flower Moon,Killers of the Flower Moon,Lilly Gladstone,NA - Critics' Pick,True,#833014ff
 The Wrap,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,NA - Critics' Pick,True,#3e3222ff
 The Wrap,Best Picture,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
+Nic,Music (Original Song),I'm Just Ken - Barbie,Barbie,I'm Just Ken,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#EF4397
+Nic,Writing (Adapted Screenplay),Barbie,Barbie,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#EF4397
+Nic,Writing (Original Screenplay),Past Lives,Past Lives,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#656d5cff
+Nic,Makeup and Hairstyling,Oppenheimer,Oppenheimer,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#3e3222ff
+Nic,Production Design,Barbie,Barbie,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#EF4397
+Nic,Visual Effects,Napoleon,Napoleon,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#91897cff
+Nic,Cinematography,Oppenheimer,Oppenheimer,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#3e3222ff
+Nic,Animated Short Film,War is Over! Inspired by the Music of John and Yoko,War is Over! Inspired by the Music of John and Yoko,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#844619ff
+Nic,Animated Feature Film,Spider-Man: Across the Spider-verse,Spider-Man: Across the Spider-verse,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#444b9fff
+Nic,Documentary Short Film,The Barber of Little Rock,The Barber of Little Rock,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#69534cff
+Nic,Documentary Feature Film,The Eternal Memory,The Eternal Memory,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#90adb4ff
+Nic,Live Action Short Film,Knight of Fortune,Knight of Fortune,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#345759ff
+Nic,Actor in a Supporting Role,Ryan Gosling - Barbie,Barbie,Ryan Gosling,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#EF4397
+Nic,Actor in a Leading Role,Cillian Murphy - Oppenheimer,Oppenheimer,Cillian Murphy,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#3e3222ff
+Nic,Actress in a Supporting Role,Danielle Brooks - The Color Purple,The Color Purple,Danielle Brooks,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#7a0e84ff
+Nic,Actress in a Leading Role,Emma Stone - Poor Things,Poor Things,Emma Stone,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#83b2cbff
+Nic,Directing,Martin Scorsese - Killers of the Flower Moon,Killers of the Flower Moon,Martin Scorsese,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#833014ff
+Nic,Best Picture,Poor Things,Poor Things,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#83b2cbff
 Taylor,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,Elemental,False,#3c4870ff
 CB,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"Barbie, Elemental",False,#3c4870ff
 All about Bolts,Sound,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"20 Days in Mariupol, Barbie, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Mission Impossible - Dead Reckoning Part One, The Color Purple",False,#3c4870ff
@@ -694,3 +716,4 @@ NH,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossi
 DashboardAliasFinal[FINAL].xlsx,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"Barbie, Killers of the Flower Moon",False,#3c4870ff
 Lil,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"American Fiction, Anatomy of a Fall, Barbie, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Oppenheimer, Poor Things, Spider-Man: Across the Spider-verse, The ABC's of Book Banning, The Boy and the Heron, The Color Purple, The Holdovers",False,#3c4870ff
 Amazing Amy,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"Barbie, Elemental, The Holdovers",False,#3c4870ff
+Nic,Sound,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"Barbie, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Poor Things",False,#3c4870ff

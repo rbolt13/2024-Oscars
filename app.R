@@ -132,11 +132,27 @@ server <- function(input, output) {
   
   # Render the table for Responses tab
   output$vote_table <- renderTable({
-    # Create Movie and Nominee columns
     vote_data <- filtered_data()
-    vote_data <- vote_data[, c("Alias", "Category", "MovieNominee", "Seen")]
-    vote_data
+    
+    # Check if both "All" are selected for Category and Alias
+    if (input$category == "All" & input$alias == "All") {
+      # Create a table showing movies and the number of votes each movie received
+      movie_votes <- vote_data %>%
+        group_by(MovieNominee) %>%
+        summarise(Votes = n()) %>%
+        arrange(desc(Votes))
+      
+      # Rename columns
+      colnames(movie_votes) <- c("Movie", "Votes")
+      
+      movie_votes
+    } else {
+      # Create Movie and Nominee columns
+      vote_data <- vote_data[, c("Alias", "Category", "MovieNominee", "Seen")]
+      vote_data
+    }
   })
+  
   
   # (3) Comparison table
   output$comparison_table <- renderTable({
