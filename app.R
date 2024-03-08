@@ -46,7 +46,7 @@ ui <- fluidPage(
                sidebarPanel(
                  selectInput("category_comp", 
                              "Select Category", 
-                             choices = unique(votes$Category)),
+                             choices = c("All", unique(votes$Category))),
                  selectInput("alias1", 
                              "Select Alias 1", 
                              choices = c("", sort(unique(votes$Alias), na.last = TRUE))),  
@@ -144,13 +144,20 @@ server <- function(input, output) {
     comparison_data <- votes
     
     # Filter by selected category
-    comparison_data <- comparison_data[comparison_data$Category == input$category_comp, ]
+    if (input$category_comp != "All") {
+      comparison_data <- comparison_data[comparison_data$Category == input$category_comp, ]
+    }
     
     # Filter by selected aliases
     comparison_data <- comparison_data[comparison_data$Alias %in% c(input$alias1, input$alias2), ]
     
     # Select relevant columns for comparison
-    comparison_data <- comparison_data[, c("Alias", "MovieNominee")]
+    comparison_data <- comparison_data[, c("Alias", "Category", "MovieNominee")]
+    
+    # If "All" categories selected, alphabetize the categories
+    if (input$category_comp == "All") {
+      comparison_data <- arrange(comparison_data, Category)
+    }
     
     # Pivot the data to create the desired table structure
     comparison_data <- pivot_wider(data = comparison_data, 

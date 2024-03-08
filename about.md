@@ -14,7 +14,7 @@ This interactive dashboard allows you to participate in the excitement of predic
 
 **Participation:**
 
-Feel free to submit your predictions! The Oscars are just around the corner, but there's still time to join in the fun and make your picks. 
+The Oscars are just around the corner, but there's still time to join in the fun and make your picks. Feel free to submit your predictions!  
 
 Here is a link to the [survey](https://docs.google.com/forms/d/e/1FAIpQLSckTz6OD1ViiO-FJZAseCAuIaQq3VdnhcAUUwjjvxuCTIxjbg/viewform?usp=sf_link).
 
