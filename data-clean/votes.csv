@@ -2,31 +2,31 @@ Alias,Category,MovieNominee,Movie,Nominee,Seen,Critic,color
 Entertainment Weekly,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
 Entertainment Weekly,Costume Design,Poor Things - Holly Waddington,Poor Things,Holly Waddington,NA - Critics' Pick,True,#83b2cbff
 Entertainment Weekly,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,NA - Critics' Pick,True,#3e3222ff
-Entertainment Weekly,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
+Entertainment Weekly,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
 Variety,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
 Variety,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,NA - Critics' Pick,True,#EF4397
 Variety,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,NA - Critics' Pick,True,#3e3222ff
-Variety,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
+Variety,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
 Screen Rant,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
 Screen Rant,Costume Design,Poor Things - Holly Waddington,Poor Things,Holly Waddington,NA - Critics' Pick,True,#83b2cbff
 Screen Rant,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,NA - Critics' Pick,True,#3e3222ff
-Screen Rant,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
+Screen Rant,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
 Gold Derby,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
 Gold Derby,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,NA - Critics' Pick,True,#EF4397
 Gold Derby,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,NA - Critics' Pick,True,#3e3222ff
-Gold Derby,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
+Gold Derby,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
 Roger Ebert,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
 Roger Ebert,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,NA - Critics' Pick,True,#EF4397
 Roger Ebert,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,NA - Critics' Pick,True,#3e3222ff
-Roger Ebert,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
+Roger Ebert,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
 Awards Daily,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
 Awards Daily,Costume Design,Poor Things - Holly Waddington,Poor Things,Holly Waddington,NA - Critics' Pick,True,#83b2cbff
 Awards Daily,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,NA - Critics' Pick,True,#3e3222ff
-Awards Daily,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
+Awards Daily,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
 tanner,Music (Original Score),American Fiction - Laura Karpman,American Fiction,Laura Karpman,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#607292ff
 tanner,Costume Design,Poor Things - Holly Waddington,Poor Things,Holly Waddington,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#83b2cbff
 tanner,Film Editing,Poor Things - Yorgos Mavropsaridis,Poor Things,Yorgos Mavropsaridis,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#83b2cbff
-tanner,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,black
+tanner,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#31743eff
 Taylor,Music (Original Score),Indiana Jones and the Dial of Destiny - John Williams,Indiana Jones and the Dial of Destiny,John Williams,Elemental,False,#f1940bff
 Taylor,Costume Design,Napoleon - Janty Yates and Dave Crossman,Napoleon,Janty Yates and Dave Crossman,Elemental,False,#91897cff
 Taylor,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,Elemental,False,#3e3222ff
@@ -38,7 +38,7 @@ Erik Light,International Feature Film,The Teacher's Lounge - Germany,The Teacher
 Kg,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,"Barbie, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Oppenheimer, Past Lives, Poor Things, Spider-Man: Across the Spider-verse, The Holdovers",False,#3e3222ff
 Kg,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,"Barbie, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Oppenheimer, Past Lives, Poor Things, Spider-Man: Across the Spider-verse, The Holdovers",False,#EF4397
 Kg,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,"Barbie, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Oppenheimer, Past Lives, Poor Things, Spider-Man: Across the Spider-verse, The Holdovers",False,#3e3222ff
-Kg,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"Barbie, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Oppenheimer, Past Lives, Poor Things, Spider-Man: Across the Spider-verse, The Holdovers",False,black
+Kg,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"Barbie, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Oppenheimer, Past Lives, Poor Things, Spider-Man: Across the Spider-verse, The Holdovers",False,#31743eff
 Cnewton,Music (Original Score),Killers of the Flower Moon - Robbie Robertson,Killers of the Flower Moon,Robbie Robertson,"Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Society of the Snow, The Color Purple",False,#833014ff
 Cnewton,Costume Design,Killers of the Flower Moon - Jacqueline West,Killers of the Flower Moon,Jacqueline West,"Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Society of the Snow, The Color Purple",False,#833014ff
 Cnewton,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,"Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Society of the Snow, The Color Purple",False,#3e3222ff
@@ -46,11 +46,11 @@ Cnewton,International Feature Film,Society of the Snow - Spain,Society of the Sn
 CB,Music (Original Score),Poor Things - Jerskin Fendrix,Poor Things,Jerskin Fendrix,"Barbie, Elemental",False,#83b2cbff
 CB,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,"Barbie, Elemental",False,#EF4397
 CB,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,"Barbie, Elemental",False,#3e3222ff
-CB,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"Barbie, Elemental",False,black
+CB,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"Barbie, Elemental",False,#31743eff
 MamaLlama26,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,"Barbie, Elemental",False,#3e3222ff
 MamaLlama26,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,"Barbie, Elemental",False,#EF4397
 MamaLlama26,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,"Barbie, Elemental",False,#3e3222ff
-MamaLlama26,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"Barbie, Elemental",False,black
+MamaLlama26,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"Barbie, Elemental",False,#31743eff
 All about Bolts,Music (Original Score),Indiana Jones and the Dial of Destiny - John Williams,Indiana Jones and the Dial of Destiny,John Williams,"20 Days in Mariupol, Barbie, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Mission Impossible - Dead Reckoning Part One, The Color Purple",False,#f1940bff
 All about Bolts,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,"20 Days in Mariupol, Barbie, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Mission Impossible - Dead Reckoning Part One, The Color Purple",False,#EF4397
 All about Bolts,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,"20 Days in Mariupol, Barbie, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Mission Impossible - Dead Reckoning Part One, The Color Purple",False,#3e3222ff
@@ -66,19 +66,19 @@ Edjr,International Feature Film,The Teacher's Lounge - Germany,The Teacher's Lou
 Leo,Music (Original Score),Indiana Jones and the Dial of Destiny - John Williams,Indiana Jones and the Dial of Destiny,John Williams,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#f1940bff
 Leo,Costume Design,Napoleon - Janty Yates and Dave Crossman,Napoleon,Janty Yates and Dave Crossman,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#91897cff
 Leo,Film Editing,Killers of the Flower Moon - Thelma Schoonmaker,Killers of the Flower Moon,Thelma Schoonmaker,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#833014ff
-Leo,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,black
+Leo,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#31743eff
 Slant,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
 Slant,Costume Design,Poor Things - Holly Waddington,Poor Things,Holly Waddington,NA - Critics' Pick,True,#83b2cbff
 Slant,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,NA - Critics' Pick,True,#3e3222ff
-Slant,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
+Slant,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
 Seattle Refined,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
 Seattle Refined,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,NA - Critics' Pick,True,#EF4397
 Seattle Refined,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,NA - Critics' Pick,True,#3e3222ff
-Seattle Refined,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
+Seattle Refined,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
 Polygon,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
 Polygon,Costume Design,Poor Things - Holly Waddington,Poor Things,Holly Waddington,NA - Critics' Pick,True,#83b2cbff
 Polygon,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,NA - Critics' Pick,True,#3e3222ff
-Polygon,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
+Polygon,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
 The_pervy_sage,Music (Original Score),Killers of the Flower Moon - Robbie Robertson,Killers of the Flower Moon,Robbie Robertson,"Barbie, Indiana Jones and the Dial of Destiny, Mission Impossible - Dead Reckoning Part One, Spider-Man: Across the Spider-verse, The Creator",False,#833014ff
 The_pervy_sage,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,"Barbie, Indiana Jones and the Dial of Destiny, Mission Impossible - Dead Reckoning Part One, Spider-Man: Across the Spider-verse, The Creator",False,#EF4397
 The_pervy_sage,Film Editing,Killers of the Flower Moon - Thelma Schoonmaker,Killers of the Flower Moon,Thelma Schoonmaker,"Barbie, Indiana Jones and the Dial of Destiny, Mission Impossible - Dead Reckoning Part One, Spider-Man: Across the Spider-verse, The Creator",False,#833014ff
@@ -114,7 +114,7 @@ Lil,International Feature Film,Society of the Snow - Spain,Society of the Snow,S
 Addison W.,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#3e3222ff
 Addison W.,Costume Design,Killers of the Flower Moon - Jacqueline West,Killers of the Flower Moon,Jacqueline West,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#833014ff
 Addison W.,Film Editing,Poor Things - Yorgos Mavropsaridis,Poor Things,Yorgos Mavropsaridis,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#83b2cbff
-Addison W.,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,black
+Addison W.,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,"American Fiction, Barbie, Elemental, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Killers of the Flower Moon, Mission Impossible - Dead Reckoning Part One, Napoleon, Oppenheimer, The Creator, The Holdovers",False,#31743eff
 Amazing Amy,Music (Original Score),Poor Things - Jerskin Fendrix,Poor Things,Jerskin Fendrix,"Barbie, Elemental, The Holdovers",False,#83b2cbff
 Amazing Amy,Costume Design,Poor Things - Holly Waddington,Poor Things,Holly Waddington,"Barbie, Elemental, The Holdovers",False,#83b2cbff
 Amazing Amy,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,"Barbie, Elemental, The Holdovers",False,#3e3222ff
@@ -122,7 +122,7 @@ Amazing Amy,International Feature Film,Io Capitano - Italy,Io Capitano,Italy,"Ba
 The Wrap,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,NA - Critics' Pick,True,#3e3222ff
 The Wrap,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,NA - Critics' Pick,True,#EF4397
 The Wrap,Film Editing,Poor Things - Yorgos Mavropsaridis,Poor Things,Yorgos Mavropsaridis,NA - Critics' Pick,True,#83b2cbff
-The Wrap,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,black
+The Wrap,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,NA - Critics' Pick,True,#31743eff
 Entertainment Weekly,Sound,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
 Entertainment Weekly,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
 Entertainment Weekly,Writing (Adapted Screenplay),Barbie,Barbie,NA,NA - Critics' Pick,True,#EF4397
@@ -198,7 +198,7 @@ Gold Derby,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,The
 Gold Derby,Actress in a Leading Role,Emma Stone - Poor Things,Poor Things,Emma Stone,NA - Critics' Pick,True,#83b2cbff
 Gold Derby,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,NA - Critics' Pick,True,#3e3222ff
 Gold Derby,Best Picture,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
-Roger Ebert,Sound,The Zone of Interest,The Zone of Interest,NA,NA - Critics' Pick,True,black
+Roger Ebert,Sound,The Zone of Interest,The Zone of Interest,NA,NA - Critics' Pick,True,#31743eff
 Roger Ebert,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
 Roger Ebert,Writing (Adapted Screenplay),American Fiction,American Fiction,NA,NA - Critics' Pick,True,#607292ff
 Roger Ebert,Writing (Original Screenplay),Anatomy of a Fall,Anatomy of a Fall,NA,NA - Critics' Pick,True,#384377ff
@@ -217,7 +217,7 @@ Roger Ebert,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,Th
 Roger Ebert,Actress in a Leading Role,Emma Stone - Poor Things,Poor Things,Emma Stone,NA - Critics' Pick,True,#83b2cbff
 Roger Ebert,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,NA - Critics' Pick,True,#3e3222ff
 Roger Ebert,Best Picture,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
-Awards Daily,Sound,The Zone of Interest,The Zone of Interest,NA,NA - Critics' Pick,True,black
+Awards Daily,Sound,The Zone of Interest,The Zone of Interest,NA,NA - Critics' Pick,True,#31743eff
 Awards Daily,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
 Awards Daily,Writing (Adapted Screenplay),American Fiction,American Fiction,NA,NA - Critics' Pick,True,#607292ff
 Awards Daily,Writing (Original Screenplay),Anatomy of a Fall,Anatomy of a Fall,NA,NA - Critics' Pick,True,#384377ff
@@ -236,7 +236,7 @@ Awards Daily,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,T
 Awards Daily,Actress in a Leading Role,Lilly Gladstone - Killers of the Flower Moon,Killers of the Flower Moon,Lilly Gladstone,NA - Critics' Pick,True,#833014ff
 Awards Daily,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,NA - Critics' Pick,True,#3e3222ff
 Awards Daily,Best Picture,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
-tanner,Sound,The Zone of Interest,The Zone of Interest,NA,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,black
+tanner,Sound,The Zone of Interest,The Zone of Interest,NA,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#31743eff
 tanner,Music (Original Song),I'm Just Ken - Barbie,Barbie,I'm Just Ken,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#EF4397
 tanner,Writing (Adapted Screenplay),Poor Things,Poor Things,NA,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#83b2cbff
 tanner,Writing (Original Screenplay),Past Lives,Past Lives,NA,"Barbie, Guardian's of the Galaxy Vol. 3, Napoleon, Oppenheimer, Poor Things, The Boy and the Heron",False,#656d5cff
@@ -455,7 +455,7 @@ Slant,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,The Hold
 Slant,Actress in a Leading Role,Emma Stone - Poor Things,Poor Things,Emma Stone,NA - Critics' Pick,True,#83b2cbff
 Slant,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,NA - Critics' Pick,True,#3e3222ff
 Slant,Best Picture,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
-Seattle Refined,Sound,The Zone of Interest,The Zone of Interest,NA,NA - Critics' Pick,True,black
+Seattle Refined,Sound,The Zone of Interest,The Zone of Interest,NA,NA - Critics' Pick,True,#31743eff
 Seattle Refined,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
 Seattle Refined,Writing (Adapted Screenplay),American Fiction,American Fiction,NA,NA - Critics' Pick,True,#607292ff
 Seattle Refined,Writing (Original Screenplay),Anatomy of a Fall,Anatomy of a Fall,NA,NA - Critics' Pick,True,#384377ff
@@ -591,7 +591,7 @@ HKB,Animated Feature Film,Nimona,Nimona,NA,"Barbie, Nimona",False,#f153f1ff
 HKB,Actor in a Supporting Role,Ryan Gosling - Barbie,Barbie,Ryan Gosling,"Barbie, Nimona",False,#EF4397
 HKB,Actress in a Supporting Role,America Ferrera - Barbie,Barbie,America Ferrera,"Barbie, Nimona",False,#EF4397
 HKB,Best Picture,Barbie,Barbie,NA,"Barbie, Nimona",False,#EF4397
-Kira,Sound,The Zone of Interest,The Zone of Interest,NA,"Anatomy of a Fall, Barbie, Killers of the Flower Moon, May December, Nyad, Oppenheimer, Past Lives, Poor Things, Society of the Snow, The Zone of Interest",False,black
+Kira,Sound,The Zone of Interest,The Zone of Interest,NA,"Anatomy of a Fall, Barbie, Killers of the Flower Moon, May December, Nyad, Oppenheimer, Past Lives, Poor Things, Society of the Snow, The Zone of Interest",False,#31743eff
 Kira,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,"Anatomy of a Fall, Barbie, Killers of the Flower Moon, May December, Nyad, Oppenheimer, Past Lives, Poor Things, Society of the Snow, The Zone of Interest",False,#EF4397
 Kira,Writing (Adapted Screenplay),Oppenheimer,Oppenheimer,NA,"Anatomy of a Fall, Barbie, Killers of the Flower Moon, May December, Nyad, Oppenheimer, Past Lives, Poor Things, Society of the Snow, The Zone of Interest",False,#3e3222ff
 Kira,Writing (Original Screenplay),Anatomy of a Fall,Anatomy of a Fall,NA,"Anatomy of a Fall, Barbie, Killers of the Flower Moon, May December, Nyad, Oppenheimer, Past Lives, Poor Things, Society of the Snow, The Zone of Interest",False,#384377ff

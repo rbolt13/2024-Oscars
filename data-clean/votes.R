@@ -145,7 +145,7 @@ votes_colors <- votes_combined |>
       Movie == "The Last Repair Shop" ~ "#f6c040ff",
       Movie == "The Teacher's Lounge" ~ "#016484ff",
       Movie == "The Wonderful Story of Henry Sugar" ~ "#0386a3ff",
-      Movie == "The Zone Of Interest" ~ "#31743eff",
+      Movie == "The Zone of Interest" ~ "#31743eff",
       Movie == "To Kill A Tiger" ~ "#88580dff",
       Movie == "War is Over! Inspired by the Music of John and Yoko" ~ "#844619ff",
       TRUE ~ "black"

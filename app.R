@@ -78,13 +78,13 @@ ui <- fluidPage(
 
 # Define server logic
 server <- function(input, output) {
-  
-  # Render the about page content
+  # (1) About Page: Render the about page content
   output$about_content <- renderUI({
     about_content <- markdown::markdownToHTML("about.md")
     HTML(about_content)
   })
   
+  # (2) Responses Page: 
   # Filtered data based on user inputs
   filtered_data <- reactive({
     data <- votes
@@ -110,47 +110,7 @@ server <- function(input, output) {
     data
   })
   
-  # Calculate leaderboard
-  leaderboard <- reactive({
-    # Filtered data for calculating scores
-    data <- filtered_data()
-    
-    # Get the list of all aliases except "Oscar Winners"
-    aliases <- unique(data$Alias[data$Alias != oscar_winners])
-    
-    # Remove critics' aliases if checkbox is unchecked
-    if (!input$include_critics_leaderboard | input$include_critics_leaderboard == FALSE) {
-      data <- data[data$Critic == "FALSE", ]
-      aliases <- unique(data$Alias[data$Alias != oscar_winners])
-    }
-    
-    # Initialize leaderboard data frame
-    leaderboard_df <- data.frame(Alias = aliases, Score = 0)
-    
-    # Get the data for "Oscar Winners"
-    tanner_data <- data[data$Alias == oscar_winners, ]
-    
-    # Iterate over each alias
-    for (alias in aliases) {
-      # Get the subset of data for the current alias
-      alias_data <- data[data$Alias == alias, ]
-      
-      # Check if the alias's prediction matches "Oscar Winners"
-      for (i in 1:nrow(alias_data)) {
-        if (alias_data[i, "MovieNominee"] %in% tanner_data$MovieNominee) {
-          leaderboard_df[leaderboard_df$Alias == alias, "Score"] <- 
-            leaderboard_df[leaderboard_df$Alias == alias, "Score"] + 1
-        }
-      }
-    }
-    
-    # Order the leaderboard by score
-    leaderboard_df <- leaderboard_df[order(leaderboard_df$Score, decreasing = TRUE), ]
-    
-    leaderboard_df
-  })
-  
-  # Render the bar plot
+  # Render the bar plot for Responses tab
   output$barplot <- renderPlot({
     # Dynamically adjust x-axis label
     x_label <- ifelse(input$category == "All", "Movie", "MovieNominee")
@@ -178,7 +138,7 @@ server <- function(input, output) {
     vote_data
   })
   
-  # Render the comparison table
+  # (3) Comparison table
   output$comparison_table <- renderTable({
     # Filtered data for comparison
     comparison_data <- votes
@@ -198,6 +158,46 @@ server <- function(input, output) {
                                    values_from = MovieNominee)
     
     comparison_data
+  })
+  
+  # (4) Leaderboard: 
+  leaderboard <- reactive({
+    # Filtered data for calculating scores
+    data <- filtered_data()
+    
+    # Get the list of all aliases except "Oscar Winners"
+    aliases <- unique(data$Alias[data$Alias != oscar_winners])
+    
+    # Remove critics' aliases if checkbox is unchecked
+    if (!input$include_critics_leaderboard | input$include_critics_leaderboard == FALSE) {
+      data <- data[data$Critic == "FALSE", ]
+      aliases <- unique(data$Alias[data$Alias != oscar_winners])
+    }
+    
+    # Initialize leaderboard data frame
+    leaderboard_df <- data.frame(Alias = aliases, Score = 0)
+    
+    # Get the data for "Oscar Winners"
+    oscars_data <- data[data$Alias == oscar_winners, ]
+    
+    # Iterate over each alias
+    for (alias in aliases) {
+      # Get the subset of data for the current alias
+      alias_data <- data[data$Alias == alias, ]
+      
+      # Check if the alias's prediction matches "Oscar Winners"
+      for (i in 1:nrow(alias_data)) {
+        if (alias_data[i, "MovieNominee"] %in% oscars_data$MovieNominee) {
+          leaderboard_df[leaderboard_df$Alias == alias, "Score"] <- 
+            leaderboard_df[leaderboard_df$Alias == alias, "Score"] + 1
+        }
+      }
+    }
+    
+    # Order the leaderboard by score
+    leaderboard_df <- leaderboard_df[order(leaderboard_df$Score, decreasing = TRUE), ]
+    
+    leaderboard_df
   })
   
   # Render the leaderboard table
