@@ -5,7 +5,7 @@ account: rbolt
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 11443820
-bundleId: 8351193
+bundleId: 8351260
 url: https://rbolt.shinyapps.io/2024-oscars/
 version: 1
 asMultiple: FALSE

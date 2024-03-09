@@ -138,7 +138,7 @@ server <- function(input, output) {
     if (input$category == "All" & input$alias == "All") {
       # Create a table showing movies and the number of votes each movie received
       movie_votes <- vote_data %>%
-        group_by(MovieNominee) %>%
+        group_by(Movie) %>%
         summarise(Votes = n()) %>%
         arrange(desc(Votes))
       
