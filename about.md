@@ -8,9 +8,7 @@ This interactive dashboard allows you to participate in the excitement of predic
 
 2. **Comparison Tab**: Compare predictions made by participants. Filter responses by category, and select specific aliases to compare predictions. 
 
-3. **Stats Tab**: Coming Soon
-
-4. **Leaderboard Tab**: (Live Monday March 11th) View the top predictors once the Oscars are announced!
+3. **Leaderboard Tab**: (Live Monday March 11th) View the top predictors once the Oscars are announced!
 
 **Participation:**
 
