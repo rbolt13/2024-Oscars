@@ -2,4 +2,4 @@
 Oscars Prediction Challenge Dashboard
 </h1>
 
-This repository contains the code for the dashboard of the [2024 Oscar Prediciton Challenge]().
+This repository contains the code for the dashboard of the [2024 Oscar Prediciton Challenge](https://rbolt.shinyapps.io/2024-oscars/).
