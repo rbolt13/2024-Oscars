@@ -9,6 +9,7 @@ library(markdown)
 
 # Load Data
 votes <- readr::read_csv("data-clean/votes.csv")
+results <- readr::read_csv("data-clean/results.csv")
 
 # Oscar Winners Data
 oscar_winners <- c("tanner")
@@ -59,6 +60,18 @@ ui <- fluidPage(
                  tableOutput("comparison_table")  
                )
              )
+    ),
+    tabPanel("Seen Statistics",
+             mainPanel(
+               h4("Statistics on Movies Seens"),
+               h5("Movies Seen Most"),
+               tableOutput("movies_seen_most_table"),
+               h5("People Who Have Seen the Most Oscar Nominated Movies"),
+               tableOutput("people_seen_most_table"),
+               h5("Unique Movies (Seen by only 1 Person)"),
+               tableOutput("unique_movie_table")
+             )
+      
     ),
     tabPanel("Leaderboard",
              sidebarLayout(
@@ -183,7 +196,46 @@ server <- function(input, output) {
     comparison_data
   })
   
-  # (4) Leaderboard: 
+  # (4) Seen Statistics tables
+  output$movies_seen_most_table <- renderTable({
+    
+    # Movies Seen Most
+    movies_seen_most <- results %>%
+      select(-total_movies_seen) %>%
+      summarise(across(-Alias, ~as.integer(sum(.)))) %>%
+      pivot_longer(cols = everything(), names_to = "movie", values_to = "count") %>%
+      arrange(desc(count)) %>%
+      head()
+    
+    movies_seen_most
+  })
+  
+  output$people_seen_most_table <- renderTable({
+    
+    # Table showing people who have seen the most movies
+    people_seen_most <- results %>%
+      select(Alias, total_movies_seen) %>%
+      mutate(total_movies_seen = as.integer(total_movies_seen)) %>%
+      arrange(desc(total_movies_seen)) %>%
+      head()
+    
+    people_seen_most
+  })
+  
+  output$unique_movie_table <- renderTable({
+    # Table showing distinct movies where only 1 person watched it
+    unique_movies <- results %>%
+      pivot_longer(cols = -Alias, names_to = "movie", values_to = "seen") %>%
+      filter(seen == 1) %>%
+      group_by(movie) %>%
+      filter(n_distinct(Alias) == 1) %>%
+      summarise(Alias = first(Alias))
+    
+    unique_movies
+  }) 
+  
+  
+  # (5) Leaderboard: 
   leaderboard <- reactive({
     # Filtered data for calculating scores
     data <- filtered_data()
