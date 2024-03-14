@@ -12,7 +12,7 @@ votes <- readr::read_csv("data-clean/votes.csv")
 results <- readr::read_csv("data-clean/results.csv")
 
 # Oscar Winners Data
-oscar_winners <- c("tanner")
+oscar_winners <- c("Oscar-Winners")
 
 # Define UI
 ui <- fluidPage(
@@ -76,13 +76,13 @@ ui <- fluidPage(
     tabPanel("Leaderboard",
              sidebarLayout(
                sidebarPanel(
-                 # checkboxInput("include_critics_leaderboard",
-                 #               "Include Critics' Data",
-                 #               value = TRUE)
+                 checkboxInput("include_critics_leaderboard",
+                               "Include Critics' Data",
+                               value = TRUE)
                ),
                mainPanel(
-                 h4("Coming on March 11th, 2024!")
-                 # tableOutput("leaderboard_table")
+                 # h4("Coming on March 11th, 2024!")
+                 tableOutput("leaderboard_table")
                )
              )
     ),
@@ -238,7 +238,7 @@ server <- function(input, output) {
   # (5) Leaderboard: 
   leaderboard <- reactive({
     # Filtered data for calculating scores
-    data <- filtered_data()
+    data <- votes
     
     # Get the list of all aliases except "Oscar Winners"
     aliases <- unique(data$Alias[data$Alias != oscar_winners])

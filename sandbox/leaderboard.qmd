@@ -1,0 +1,18 @@
+---
+title: "leaderboard"
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+votes <- readr::read_csv("../data-clean/votes.csv")
+```
+
+```{r}
+
+```
+
+
+

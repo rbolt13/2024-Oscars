@@ -135,6 +135,10 @@ Baby French,Music (Original Score),Killers of the Flower Moon - Robbie Robertson
 Baby French,Costume Design,Barbie - Jacqueline Durran,Barbie,Jacqueline Durran,"Anatomy of a Fall, Barbie, Bobi Wine: The People's President, Elemental, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Letter to a Pig, Maestro, NǍI NAI & WÀI PÓ, Oppenheimer, Poor Things, Spider-Man: Across the Spider-verse, The Barber of Little Rock, The Holdovers",False,#EF4397
 Baby French,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,"Anatomy of a Fall, Barbie, Bobi Wine: The People's President, Elemental, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Letter to a Pig, Maestro, NǍI NAI & WÀI PÓ, Oppenheimer, Poor Things, Spider-Man: Across the Spider-verse, The Barber of Little Rock, The Holdovers",False,#3e3222ff
 Baby French,International Feature Film,Society of the Snow - Spain,Society of the Snow,Spain,"Anatomy of a Fall, Barbie, Bobi Wine: The People's President, Elemental, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Letter to a Pig, Maestro, NǍI NAI & WÀI PÓ, Oppenheimer, Poor Things, Spider-Man: Across the Spider-verse, The Barber of Little Rock, The Holdovers",False,#c8d9cfff
+Oscar-Winners,Music (Original Score),Oppenheimer - Ludwig Göransson,Oppenheimer,Ludwig Göransson,Winners,False,#3e3222ff
+Oscar-Winners,Costume Design,Poor Things - Holly Waddington,Poor Things,Holly Waddington,Winners,False,#83b2cbff
+Oscar-Winners,Film Editing,Oppenheimer - Jennifer Lame,Oppenheimer,Jennifer Lame,Winners,False,#3e3222ff
+Oscar-Winners,International Feature Film,The Zone of Interest - United Kingdom,The Zone of Interest,United Kingdom,Winners,False,#31743eff
 Entertainment Weekly,Sound,Oppenheimer,Oppenheimer,NA,NA - Critics' Pick,True,#3e3222ff
 Entertainment Weekly,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,NA - Critics' Pick,True,#EF4397
 Entertainment Weekly,Writing (Adapted Screenplay),Barbie,Barbie,NA,NA - Critics' Pick,True,#EF4397
@@ -752,6 +756,25 @@ Baby French,Actress in a Supporting Role,Danielle Brooks - The Color Purple,The 
 Baby French,Actress in a Leading Role,Emma Stone - Poor Things,Poor Things,Emma Stone,"Anatomy of a Fall, Barbie, Bobi Wine: The People's President, Elemental, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Letter to a Pig, Maestro, NǍI NAI & WÀI PÓ, Oppenheimer, Poor Things, Spider-Man: Across the Spider-verse, The Barber of Little Rock, The Holdovers",False,#83b2cbff
 Baby French,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,"Anatomy of a Fall, Barbie, Bobi Wine: The People's President, Elemental, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Letter to a Pig, Maestro, NǍI NAI & WÀI PÓ, Oppenheimer, Poor Things, Spider-Man: Across the Spider-verse, The Barber of Little Rock, The Holdovers",False,#3e3222ff
 Baby French,Best Picture,Barbie,Barbie,NA,"Anatomy of a Fall, Barbie, Bobi Wine: The People's President, Elemental, Guardian's of the Galaxy Vol. 3, Killers of the Flower Moon, Letter to a Pig, Maestro, NǍI NAI & WÀI PÓ, Oppenheimer, Poor Things, Spider-Man: Across the Spider-verse, The Barber of Little Rock, The Holdovers",False,#EF4397
+Oscar-Winners,Sound,The Zone of Interest,The Zone of Interest,NA,Winners,False,#31743eff
+Oscar-Winners,Music (Original Song),What Was I Made For? - Barbie,Barbie,What Was I Made For?,Winners,False,#EF4397
+Oscar-Winners,Writing (Adapted Screenplay),American Fiction,American Fiction,NA,Winners,False,#607292ff
+Oscar-Winners,Writing (Original Screenplay),Anatomy of a Fall,Anatomy of a Fall,NA,Winners,False,#384377ff
+Oscar-Winners,Makeup and Hairstyling,Poor Things,Poor Things,NA,Winners,False,#83b2cbff
+Oscar-Winners,Production Design,Poor Things,Poor Things,NA,Winners,False,#83b2cbff
+Oscar-Winners,Visual Effects,Godzilla Minus One,Godzilla Minus One,NA,Winners,False,#a09e9eff
+Oscar-Winners,Cinematography,Oppenheimer,Oppenheimer,NA,Winners,False,#3e3222ff
+Oscar-Winners,Animated Short Film,War is Over! Inspired by the Music of John and Yoko,War is Over! Inspired by the Music of John and Yoko,NA,Winners,False,#844619ff
+Oscar-Winners,Animated Feature Film,The Boy And The Heron,The Boy And The Heron,NA,Winners,False,#3c5b67ff
+Oscar-Winners,Documentary Short Film,The Last Repair Shop,The Last Repair Shop,NA,Winners,False,#f6c040ff
+Oscar-Winners,Documentary Feature Film,20 Days In Mariupol,20 Days In Mariupol,NA,Winners,False,#766c6cff
+Oscar-Winners,Live Action Short Film,The Wonderful Story of Henry Sugar,The Wonderful Story of Henry Sugar,NA,Winners,False,#0386a3ff
+Oscar-Winners,Actor in a Supporting Role,Robert Downer Jr. - Oppenheimer,Oppenheimer,Robert Downer Jr.,Winners,False,#3e3222ff
+Oscar-Winners,Actor in a Leading Role,Cillian Murphy - Oppenheimer,Oppenheimer,Cillian Murphy,Winners,False,#3e3222ff
+Oscar-Winners,Actress in a Supporting Role,Da'Vine Joy Randolph - The Holdovers,The Holdovers,Da'Vine Joy Randolph,Winners,False,#c22b07
+Oscar-Winners,Actress in a Leading Role,Emma Stone - Poor Things,Poor Things,Emma Stone,Winners,False,#83b2cbff
+Oscar-Winners,Directing,Christopher Nolan - Oppenheimer,Oppenheimer,Christopher Nolan,Winners,False,#3e3222ff
+Oscar-Winners,Best Picture,Oppenheimer,Oppenheimer,NA,Winners,False,#3e3222ff
 Taylor,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,Elemental,False,#3c4870ff
 CB,Visual Effects,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"Barbie, Elemental",False,#3c4870ff
 All about Bolts,Sound,Mission: Impossible - Dead Reckoning Part One,Mission: Impossible - Dead Reckoning Part One,NA,"20 Days in Mariupol, Barbie, Guardian's of the Galaxy Vol. 3, Indiana Jones and the Dial of Destiny, Mission Impossible - Dead Reckoning Part One, The Color Purple",False,#3c4870ff

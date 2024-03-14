@@ -1,5 +1,5 @@
 ### Votes ---------------------------------------
-# Date: March 4, 2024
+# Date: March 14, 2024
 # Description: This file loads the raw oscars.csv, 
 # cleans it, and then saves it as a .csv into the 
 # data-clean folder. 
@@ -15,45 +15,42 @@ library(dplyr)
 
 ### Load Raw Data -------------------------------
 # oscars: raw google forms data of oscar nominations. 
-oscars <- readr::read_csv("data-raw/oscars.csv")
+oscar_categories <- readr::read_csv("data-raw/oscars.csv")
 
 ### Clean Data -----------------------------
 # 1. Extract columns representing Oscar categories
-# 2. Rename the last two columns. 
-# 3. Pivot table. 
-# 4. Add critic column
-# 5. Extract exception movies with "-" in the title
-# 6. Subset the data in movieL and movieR such that 
+# 1. Rename the last two columns. 
+# 2. Pivot table. 
+# 3. Add critic column
+# 4. Extract exception movies with "-" in the title
+# 5. Subset the data in movieL and movieR such that 
 #     the movie title is either on the left or right 
 #     side of the delimiter
-# 7. Separate MovieNominees into three columns for all 
+# 6. Separate MovieNominees into three columns for all 
 #     three datasets
-# 8. Combine the datasets together again.
-# 9. Add colors defined by the movie.
+# 7. Combine the datasets together again.
+# 8. Add colors defined by the movie.
 
-# 1. Extract columns representing Oscar categories
-oscar_categories <- oscars[,3:27]
-
-# 2. Rename last two columns
+# 1. Rename last two columns
 colnames(oscar_categories)[24] <- "Alias"
 colnames(oscar_categories)[25] <- "Seen"
 
-# 3. Pivot table. 
+# 2. Pivot table. 
 oscar_votes <- oscar_categories %>%
   pivot_longer(cols = -c(Alias, Seen), 
                names_to = "Category", 
                values_to = "MovieNominee") %>%
   select(Alias, Category, MovieNominee, Seen)
 
-# 4. Add critic column
+# 2. Add critic column
 oscar_votes <- oscar_votes %>%
   mutate(Critic = ifelse(grepl("NA - Critics' Pick", Seen), 
                          "True", "False"))
 
-# 5. Extract exception movies with "-" in the title
+# 3. Extract exception movies with "-" in the title
 exceptional_movies <- c("Mission: Impossible - Dead Reckoning Part One")
 
-# 6. Subset the data in movieL and movieR such that 
+# 4. Subset the data in movieL and movieR such that 
 #     the movie title is either on the left or right 
 #     side of the delimiter
 movieL <- subset(oscar_votes, 
@@ -68,7 +65,7 @@ movieR <- filter(oscar_votes,
                    Category != "Music (Original Score)" & 
                    MovieNominee != exceptional_movies)
 
-# 7. Separate MovieNominees into three columns for all 
+# 5. Separate MovieNominees into three columns for all 
 #     three datasets
 movieL_sep <- separate(movieL,
                        MovieNominee,
@@ -88,10 +85,10 @@ exceptional_movies_data <- oscar_votes %>%
          Movie = MovieNominee, 
          Nominee = NA)
 
-# 8. Combine the datasets together again.
+# 6. Combine the datasets together again.
 votes_combined <- rbind(movieL_sep, movieR_sep, exceptional_movies_data)
 
-# 9. Add colors. 
+# 7. Add colors. 
 votes_colors <- votes_combined |>
   mutate(
     color = case_when(
@@ -151,6 +148,7 @@ votes_colors <- votes_combined |>
       TRUE ~ "black"
     )
   )
+
 ### Save Data ---------------------------------
 readr::write_csv(
   votes_colors, 
