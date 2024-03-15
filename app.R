@@ -93,7 +93,7 @@ ui <- fluidPage(
 server <- function(input, output) {
   # (1) About Page: Render the about page content
   output$about_content <- renderUI({
-    about_content <- markdown::markdownToHTML("about.md")
+    about_content <- markdown::markdownToHTML("md/about.md")
     HTML(about_content)
   })
   

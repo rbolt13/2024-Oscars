@@ -20,7 +20,7 @@ Here is a link to the [survey](https://docs.google.com/forms/d/e/1FAIpQLSckTz6OD
 
 <center>
 
-![](img/trophy.png)
+![](../img/trophy.png)
 
 **About Developer**: This app was created by [Randi Bolt](https://www.rbolt.me/).
 
