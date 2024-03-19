@@ -14,80 +14,30 @@ results <- readr::read_csv("data-clean/results.csv")
 # Oscar Winners Data
 oscar_winners <- c("Oscar-Winners")
 
+# Define UI Modules
+source("app/about/ui_about.R")
+source("app/responses/ui_responses.R")
+source("app/comparison/ui_comparison.R")
+source("app/seen-statistics/ui_seen_statistics.R")
+source("app/leaderboard/ui_leaderboard.R")
+
+# Define Server Modules
+# source("app/about/server_about.R")
+# source("app/responses/server_responses.R")
+# source("app/comparison/server_comparison.R")
+# source("app/seen-stats/server_seen_statistics.R")
+# source("app/leaderboard/server_leaderboard.R")
+
 # Define UI
 ui <- fluidPage(
   titlePanel("2024 Oscar Prediction Challenge"),
-  tabsetPanel(
-    tabPanel("About", 
-             uiOutput("about_content")
-    ),
-    tabPanel("Responses",
-             sidebarLayout(
-               sidebarPanel(
-                 selectInput("category", 
-                             "Select Category", 
-                             choices = c("All", unique(votes$Category))),  
-                 checkboxInput("include_critics", 
-                               "Include Critics' Data", 
-                               value = TRUE),
-                 selectInput("alias", 
-                             "Select Alias", 
-                             choices = c("",
-                                         "All", 
-                                         sort(unique(votes$Alias), 
-                                              na.last = TRUE)))
-               ),
-               mainPanel(
-                 plotOutput("barplot"),
-                 tableOutput("vote_table")
-               )
-             )
-    ),
-    tabPanel("Comparison", 
-             sidebarLayout(
-               sidebarPanel(
-                 selectInput("category_comp", 
-                             "Select Category", 
-                             choices = c("All", unique(votes$Category))),
-                 selectInput("alias1", 
-                             "Select Alias 1", 
-                             choices = c("", sort(unique(votes$Alias), na.last = TRUE))),  
-                 selectInput("alias2", 
-                             "Select Alias 2", 
-                             choices = c("", sort(unique(votes$Alias), na.last = TRUE)))  
-               ),
-               mainPanel(
-                 tableOutput("comparison_table")  
-               )
-             )
-    ),
-    tabPanel("Seen Statistics",
-             mainPanel(
-               h4("Statistics on Movies Seens"),
-               h5("Movies Seen Most"),
-               tableOutput("movies_seen_most_table"),
-               h5("People Who Have Seen the Most Oscar Nominated Movies"),
-               tableOutput("people_seen_most_table"),
-               h5("Unique Movies (Seen by only 1 Person)"),
-               tableOutput("unique_movie_table")
-             )
-      
-    ),
-    tabPanel("Leaderboard",
-             sidebarLayout(
-               sidebarPanel(
-                 checkboxInput("include_critics_leaderboard",
-                               "Include Critics' Data",
-                               value = TRUE)
-               ),
-               mainPanel(
-                 # h4("Coming on March 11th, 2024!")
-                 tableOutput("leaderboard_table")
-               )
-             )
-    ),
+  tabsetPanel(ui_about(),
+              ui_responses(),
+              ui_comparison(),
+              ui_seen_statistics(),
+              ui_leaderboard(),
+              )
   )
-)
 
 # Define server logic
 server <- function(input, output) {

@@ -12,25 +12,17 @@ here::i_am("data-raw/oscars.R")
 library(googlesheets4)
 library(readr)
 
-### Save Data -----------------------------
-# 1. Call Data
-# 2. Remove first two columns. 
-
-# 1. Call Data 
-# Authentication happens every time the data updates,
-# because the sheet is private. 
+### Get Data -----------------------------
+# Call (and authentication) Data
 oscars_full <- googlesheets4::read_sheet(
   "https://docs.google.com/spreadsheets/d/1uLKydUeW7y21hV5J1hqm84FmC4ADTJlllpX6sh0dl0M/edit?resourcekey#gid=60952515",
   sheet = "2024",
   na= "NA")
 
-# 2. Remove the first two columns. 
-# Don't want time stamp and emails saved to raw csv data.
+# Remove unnecessary columns
 oscars <- oscars_full[,3:27]
 
 ### Save as .csv File -------------------------
 readr::write_csv(
   oscars, 
   file = "data-raw/oscars.csv")
-
-# Thank you!
